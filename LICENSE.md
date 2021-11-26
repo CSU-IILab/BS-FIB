@@ -1,1 +1,0 @@
-The datas of train speed, carriage pre-control pressure, carriage brake cylinder pressure and brake cylinder pressure occurred in the carriage with sensor deviation fault, sensor gain fault, brake cylinder leakage fault, EP valve fault and train pip fault were collected. Datas are collected at 10,000 samples per second.
