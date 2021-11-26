@@ -1,0 +1,39 @@
+The data of the six data files in the file all represent a high-speed train braking from 160km/h to 100km/h under normal or fault conditions of T2 carriage, 
+and the specific data set is described as follows:
+
+Normal.mat : Fault-free data
+where：
+in_T2Nor：Column 1--Time[s]; Column 2 -- Pre-controlled pressure of T2 carriage without faults[kPa]
+pre_T2Norr：Column 1--Time[s]; Column 2 through 5 -- Pressure of brake cylinder No. 1-4 of T2 carriage without faults[kPa]
+SP：Column 1--Time[s]; Column 2 -- The speed of the high-speed train without faults[km/h]
+
+deviationP1_fault.mat : Fault data of deviation fault of P1 sensor in T2 carriage. Deviation value: 2
+where：
+in_T2deviation：Column 1--Time[s]; Column 2 -- Pre-control pressure of T2 carriage after sensor deviation fault[kPa]
+pre_T2deviation：Column 1--Time[s]; Column 2 through 5 -- Pressure of brake cylinder No. 1-4 of T2 carriage after sensor deviation fault[kPa]
+SP：Column 1--Time[s]; Column 2 -- The speed of the high-speed train after sensor deviation fault[km/h]
+
+gainP1_fault.mat : Fault data of gain fault of P1 sensor in T2 carriage. Gain coefficient: 0.95
+where：
+in_T2gain：Column 1--Time[s]; Column 2 -- Pre-control pressure of T2 carriage after sensor gain fault[kPa]
+pre_T2gain：Column 1--Time[s]; Column 2 through 5 -- Pressure of brake cylinder No. 1-4 of T2 carriage after sensor gain fault[kPa]
+SP：Column 1--Time[s]; Column 2 -- The speed of the high-speed train after sensor gain fault[km/h]
+
+BC_fault.mat: Fault data of No. 1 brake cylinder fault in T2 carriage. Degree of the fault : 3g/s/bar
+where：
+in_T2zdg：Column 1--Time[s]; Column 2 -- Pre-control pressure of T2 carriage after brake cylinder leakage fault[kPa]
+pre_T2zdg：Column 1--Time[s]; Column 2 through 5 -- Pressure of brake cylinder No. 1-4 of T2 carriage after brake cylinder leakage fault[kPa]
+SP：Column 1--Time[s]; Column 2 -- The speed of the high-speed train after brake cylinder leakage fault[km/h]
+
+TP_fault.mat: Fault data of leakage fault in train pipe from brake  air cylinder to relay valve in T2 carriage. Degree of the fault : 1mm
+where：
+in_T2lcg：Column 1--Time[s]; Column 2 -- Pre-control pressure of T2 carriage after train pipe leakage fault[kPa]
+pre_T2lcg：Column 1--Time[s]; Column 2 through 5 -- Pressure of brake cylinder No. 1-4 of T2 carriage after train pipe leakage fault[kPa]
+SP：Column 1--Time[s]; Column 2 -- The speed of the high-speed train after train pipe leakage fault[km/h]
+
+EP_fault.mat: Fault data of gas-filled solenoid valve spring fault in EP valve in T2 carriage. Degree of the fault : 20% ( (The old spring coefficient - The current spring coefficient)/The old spring coefficient )*100%
+where：
+in_T2ep：Column 1--Time[s]; Column 2 -- Pre-control pressure of T2 carriage after EP fault[kPa]
+pre_T2ep：Column 1--Time[s]; Column 2 through 5 -- Pressure of brake cylinder No. 1-4 of T2 carriage after tEP fault[kPa]
+SP：Column 1--Time[s]; Column 2 -- The speed of the high-speed train after EP fault[km/h]
+
