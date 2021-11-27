@@ -1,0 +1,20 @@
+The data set in the file represents the output data of the air brake system after the fault of the system, and the specific data set is described as follows:
+
+ABS_1s：The simulation time is set to 12s, the noise is set toGaussian white noise, the fault injection time Tf is 1s, and the pre-control pressure of the air brake system is 300kPa within 0-7s and 0kPa within 7-12s. The degree and location of  these faults are described in the article.
+where:
+normal: Column 1--Time[s]; Column 2 through 5 -- Pressure of brake cylinder No. 1-4  without faults[kPa]
+devation1: Column 1--Time[s]; Column 2 through 5 -- Pressure of brake cylinder No. 1-4 of T2 carriage after sensor deviation fault[kPa]
+gain1: Column 1--Time[s]; Column 2 through 5 -- Pressure of brake cylinder No. 1-4 of T2 carriage after sensor gain fault[kPa]
+zdg1: Column 1--Time[s]; Column 2 through 5 -- Pressure of brake cylinder No. 1-4 of T2 carriage after brake cylinder leakage fault[kPa]
+lcg1: Column 1--Time[s]; Column 2 through 5 -- Pressure of brake cylinder No. 1-4 of T2 carriage after train pipe leakage fault[kPa]
+ep1: Column 1--Time[s]; Column 2 through 5 -- Pressure of brake cylinder No. 1-4 of T2 carriage after tEP fault[kPa]
+
+
+ABS_1s：The simulation time is set to 12s, the noise is set toGaussian white noise, the fault injection time Tf is 3s, and the pre-control pressure of the air brake system is 300kPa within 0-7s and 0kPa within 7-12s. The degree and location of  these faults are described in the article.
+where:
+normal: Column 1--Time[s]; Column 2 through 5 -- Pressure of brake cylinder No. 1-4  without faults[kPa]
+devation3: Column 1--Time[s]; Column 2 through 5 -- Pressure of brake cylinder No. 1-4 of T2 carriage after sensor deviation fault[kPa]
+gain3: Column 1--Time[s]; Column 2 through 5 -- Pressure of brake cylinder No. 1-4 of T2 carriage after sensor gain fault[kPa]
+zdg3: Column 1--Time[s]; Column 2 through 5 -- Pressure of brake cylinder No. 1-4 of T2 carriage after brake cylinder leakage fault[kPa]
+lcg3: Column 1--Time[s]; Column 2 through 5 -- Pressure of brake cylinder No. 1-4 of T2 carriage after train pipe leakage fault[kPa]
+ep3: Column 1--Time[s]; Column 2 through 5 -- Pressure of brake cylinder No. 1-4 of T2 carriage after tEP fault[kPa]
